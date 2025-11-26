@@ -5,7 +5,6 @@
 //执行actions
 //获取docker镜像
 //部署
-
 const os = require('os');
 const http = require('http');
 const fs = require('fs');
