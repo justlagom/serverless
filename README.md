@@ -5,7 +5,7 @@
 
 1. fork 此项目
 2. 在Actions菜单允许 `I understand my workflows, go ahead and enable them` 按钮
-## 3. 将hug分支中的example.js填写需要的变量后混淆保存并替换到index.js文件内，js混肴地址：https://obfuscator.io 
+## 3. 参考example.js明文代码并填写需要的变量后混淆保存并替换到index.js文件内，js混肴地址：https://obfuscator.io 
 4. 在.github/workflows/build-image.yml 44中修改镜像名称
 
 ---
