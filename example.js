@@ -16,8 +16,8 @@ const { Buffer } = require('buffer');
 const { exec, execSync } = require('child_process');
 const { WebSocket, createWebSocketStream } = require('ws');
 //补全参数
-const UUID = process.env.UUID || 'b3a053a4-062e-49fd-f98f-b6014dd7d4a9'; // 运行哪吒v1,在不同的平台需要改UUID,否则会被覆盖
-const DOMAIN = process.env.DOMAIN || 'modern-rene-2025-11-26-da6b97d2.koyeb.app';       // 填写项目域名
+const UUID = process.env.UUID || '请自定义uuid'; // 运行哪吒v1,在不同的平台需要改UUID,否则会被覆盖
+const DOMAIN = process.env.DOMAIN || '项目域名.com';       // 填写项目域名，不要带前缀"https://"
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;      // 是否开启自动访问保活,false为关闭,true为开启,需同时填写DOMAIN变量
 const WSPATH = process.env.WSPATH || UUID.slice(0, 8);     // 节点路径，默认获取uuid前8位
 const SUB_PATH = process.env.SUB_PATH || 'sub';            // 获取节点的订阅路径
